@@ -9,11 +9,23 @@
   --sky:#ffe0ea;               /* rosa/creme claro */
   --sand:#fff7f8;              /* fundo areia rosado */
   --white:#ffffff;
+
+  --clr-sakura-red-dark: #EA384F;
+  --clr-sakura-red: #ED5668;
+  --clr-sakura-red-light: #F28693;
+  --clr-sakura-black-dark: #1D1D1B; 
+  --clr-sakura-gray-dark: #4C4C4C;  
+  --clr-sakura-gray-medium-dark: #595959;
+  --clr-sakura-gray-medium: #898989;
+  --clr-sakura-gray: #BCBCBC;       
+  --clr-sakura-gray-light: #D1D1D1; 
+  --clr-sakura-gray-lighter: #D8D8D8;
+  --clr-sakura-white: #FFFFFF;      
 }
 
 html, body{ scroll-behavior:smooth; }
 body{
-  color:var(--ink);
+  color:var(--clr-sakura-black-dark);
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
   scroll-padding-top:84px; /* compensa a navbar fixa */
 }
